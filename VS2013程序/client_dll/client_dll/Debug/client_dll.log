@@ -1,0 +1,14 @@
+﻿生成启动时间为 2014/9/18 16:01:45。
+     1>项目“E:\VS2013程序\client_dll\client_dll\client_dll.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"E:\code\libxml2-2.6.22.win32\lib" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D CLIENT_DLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\loadManageClient.c
+         loadManageClient.c
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\VS2013程序\client_dll\Debug\client_dll.dll" /INCREMENTAL /NOLOGO libcurl_imp.lib libxml2.lib libxml2_a.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\VS2013程序\client_dll\Debug\client_dll.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\VS2013程序\client_dll\Debug\client_dll.lib" /MACHINE:X86 /DLL Debug\loadManageClient.obj
+            正在创建库 E:\VS2013程序\client_dll\Debug\client_dll.lib 和对象 E:\VS2013程序\client_dll\Debug\client_dll.exp
+         client_dll.vcxproj -> E:\VS2013程序\client_dll\Debug\client_dll.dll
+     1>已完成生成项目“E:\VS2013程序\client_dll\client_dll\client_dll.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.93

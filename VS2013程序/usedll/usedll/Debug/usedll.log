@@ -1,0 +1,14 @@
+﻿生成启动时间为 2014/9/16 17:04:30。
+     1>项目“E:\VS2013程序\usedll\usedll\usedll.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"E:\VS2013程序\client_dll" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\usedll.c
+         usedll.c
+     1>e:\vs2013程序\usedll\usedll.c(38): warning C4101: “loadStatus”: 未引用的局部变量
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\VS2013程序\usedll\Debug\usedll.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:\VS2013程序\client_dll\Debug" client_dll.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\VS2013程序\usedll\Debug\usedll.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\VS2013程序\usedll\Debug\usedll.lib" /MACHINE:X86 Debug\usedll.obj
+         usedll.vcxproj -> E:\VS2013程序\usedll\Debug\usedll.exe
+     1>已完成生成项目“E:\VS2013程序\usedll\usedll\usedll.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.79
